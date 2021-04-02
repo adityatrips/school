@@ -1,0 +1,1 @@
+print(f"Number of seconds in a year\n >> {365*24*60*60}")

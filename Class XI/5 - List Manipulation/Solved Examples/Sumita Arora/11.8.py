@@ -1,0 +1,6 @@
+lst = eval(input("Enter a list\n=> "))
+print(f"Original list: {lst}")
+lst_asc = sorted(lst)
+lst_des = sorted(lst, reverse=True)
+print(f'Ascending list: {lst_asc}')
+print(f'Descending list: {lst_des}')

@@ -1,0 +1,5 @@
+lst_num = int(input("ENTER THE NUMBER OF ELEMENTS\n=> "))
+tup = tuple(range(lst_num),)
+print(f"Generated list: {tup}")
+ind = int(input("ENTER THE INDEX"))
+print(f'Element @ {ind} is {tup[ind]}')
